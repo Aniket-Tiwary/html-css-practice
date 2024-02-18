@@ -1,0 +1,130 @@
+body{
+    margin:0;
+    background-color: rgb(26,188,155);
+    height: 100vh;
+    font-family: Arial;
+}
+
+svg{
+    color: #fff;
+    height: 40px;
+    z-index: 100;
+}
+
+.login-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-form{
+    height: 330px;
+    width: 300px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+.form-header{
+    /* border-top-left-radius: 20px; */
+    border: 1px rgb(154, 154, 154) solid;
+    color: white;
+    background-color: rgb(21,161,133);
+    height: 80px;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 100%;
+    background-color: white;
+    height: 100%;
+}
+
+
+.input-field{
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.icon{
+    background-color: #12A082;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.input-field input{
+    display: flex;
+    flex: 1;
+    height: 34px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: 1px solid rgb(199, 199, 199);
+    border-left-width: 0px;
+    font-size: 12px;
+    padding: 0px 8px;
+}
+
+.email{
+    margin-top: 30px;
+}
+
+.password{
+    margin-top: 10px;
+}
+
+.forgot-password{
+    margin-top: 10px;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.forgot-password a{
+    color: rgb(26,188,155);
+    text-decoration:none;
+}
+
+.login-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+button{
+    border-radius: 8px;
+    height: 40px;
+    width: 260px;
+    background-color: rgb(21,161,133);
+    border: none;
+    color: white;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.sign-up{
+    margin-top: 20px;
+    color: rgb(93,93,93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.sign-up a{
+    margin-left: 4px;
+    color: rgb(21,161,133);
+    font-size: 16px;
+}
+
+
